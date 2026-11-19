@@ -1,0 +1,179 @@
+.startsidan {
+    background-image: url("Webbdesign_Bilder/Header1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+
+}
+
+
+.intro {
+    text-align: center;
+    color: rgb(199, 36, 36);
+    padding: 10px;
+}
+
+
+body {
+    background-color: #f5eee8;
+}
+
+.sok-ruta {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin: 20px;
+}
+
+.sok-ruta input {
+    padding: 10px;
+    border: 1px solid #c72424;
+    border-radius: 5px;
+}
+
+.sok-ruta button {
+    background-color: #f5eee8;
+    color: #c72424;
+    border: none;
+}
+
+
+
+
+h1,
+p {
+    text-align: center;
+    color: rgb(199, 36, 36);
+}
+.meny {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+.meny-kort {
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(199, 36, 36);
+}
+
+.meny-kort img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.portfolio-sida p {
+    color: #c72424;
+    font-size: 22px;
+}
+
+.portfolio-sida p.obs {
+    color: #c72424;
+    font-size: 14px;
+    font-style: italic;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.om-mig-innehall {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;
+}
+
+.profilbild {
+    width: 300px;
+    height: auto;
+}
+
+.om-mig-text {
+    max-width: 600px;
+}
+
+.om-mig-text p {
+    text-align: left;
+}
+
+h2 {
+    color: #c72424;
+}
+
+
+
+.tillbaka-knapp {
+    background-color: #c72424;
+    color: #f5eee8;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 40px;
+}
+
+.portfolio-kort img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background-color: #f5eee8;
+}
+
+.portfolio-kort h3 {
+    color: #c72424;
+}
+
+.nyheter24-knapp {
+    display: inline-block;
+    background-color: #c72424;
+    color: #f5eee8;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 30px;
+}
+
+
+
+.kontakt-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.kontakt-bild img {
+    width: 250px;
+    height: auto;
+}
+
+.sociala-lankar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.sociala-lankar img {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+}
+
+
